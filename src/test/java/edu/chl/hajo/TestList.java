@@ -26,8 +26,6 @@ public class TestList {
         List l = new List();
         l.add(1);                        // Call method to test
         assertTrue(l.getLength() == 1);  // The logical check
-        l.remove();
-        assertTrue(l.getLength() == 0);
     }
 
 }
